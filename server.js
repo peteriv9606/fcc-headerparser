@@ -30,7 +30,6 @@ app.get("/api/whoami", (req, res) => {
     language: req.headers["accept-language"],
     software: req.headers["user-agent"],
   });
-  console.log();
 });
 
 // listen for requests :)
